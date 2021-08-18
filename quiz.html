@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with triangles|Quiz</title>
+    <link rel="stylesheet" href="isTriangle.css">
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun With Triangles 📐</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link " href="/isTriangle.html">IsTriangle?</a>
+            </li>
+            <li class="list-item-inline link-active">
+                <a class="link" href="/quiz.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list-item-inline ">
+                <a class="link" href="/area.html">Area of Triangle</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="main-container">
+        <h2>Quiz on triangles</h2>
+        <h4 class="spacing">For each correct answer you will get 1 point</h4>
+        <form action="quiz-form" class="quiz-form">
+            <p class="inline">Ques 1 - What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p><br>
+            <label for="question1" class="inline" >
+                <input type="radio" name="question1" class="spacing" value="45°">45°
+            </label>
+            <label for="question1" class="inline">
+                <input type="radio" name="question1" class="spacing" value="90°">90°
+            </label>
+            <label for="question1" class="inline">
+                <input type="radio" name="question1" class="spacing" value="60°">60°
+            </label><br>
+            <p class="inline">Ques 2 - What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p><br>
+            <label for="question1" class="inline" >
+                <input type="radio" name="question2" class="spacing" value="obtuse">obtuse 
+            </label>
+            <label for="question1" class="inline">
+                <input type="radio" name="question2" class="spacing" value="acute">acute
+            </label>
+            <label for="question1" class="inline">
+                <input type="radio" name="question2" class="spacing" value="right angled">right angled
+            </label><br>
+            <p class="inline">Ques 3 - A scalane triangle has how many sides?</p><br>
+            <label for="question1" class="inline" >
+                <input type="radio" name="question3" class="spacing" value="1">1
+            </label>
+            <label for="question1" class="inline">
+                <input type="radio" name="question3" class="spacing" value="2">2
+            </label>
+            <label for="question1" class="inline">
+                <input type="radio" name="question3" class="spacing" value="3">3
+            </label><br>
+            <p class="inline">Ques 4 - A triangle can have how may sides?</p><br>
+            <label for="question1" class="inline" >
+                <input type="radio" name="question4" class="spacing" value="one right angle">one right angle
+            </label>
+            <label for="question1" class="inline">
+                <input type="radio" name="question4" class="spacing" value="two right angles">two right angles
+            </label><br>
+            <p class="inline">Ques 5 - Which of the following triangles are always similar?</p><br>
+            <label for="question1" class="inline" >
+                <input type="radio" name="question5" class="spacing" value="Equilateral triangle">Equilateral triangle
+            </label>
+            <label for="question1" class="inline">
+                <input type="radio" name="question5" class="spacing" value="Isosceles triangle">Isosceles triangle
+            </label><br>
+            <p class="inline">Ques 6 - A right triangle has how many sides?</p><br>
+            <label for="question1" class="inline" >
+                <input type="radio" name="question6" class="spacing" value="1">1
+            </label>
+            <label for="question1" class="inline">
+                <input type="radio" name="question6" class="spacing" value="2">2
+            </label>
+            <label for="question1" class="inline">
+                <input type="radio" name="question6" class="spacing" value="3">3
+            </label><br> 
+            <p class="inline">Ques 7 - An Isosceles triangle has how many equal angles?</p><br>
+            <label for="question1" class="inline" >
+                <input type="radio" name="question7" class="spacing" value="1">1
+            </label>
+            <label for="question1" class="inline">
+                <input type="radio" name="question7" class="spacing" value="2">2
+            </label>
+            <label for="question1" class="inline">
+                <input type="radio" name="question7" class="spacing" value="3">3
+            </label><br>
+        </form>
+        <button class="btn spacing" id="submitbtn">Submit Answers</button>
+    <div class="output spacing" id="oparea"></div>
+    </div>
+    <script src="/quiz.js"></script>
+</body>
+</html>
