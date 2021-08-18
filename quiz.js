@@ -17,7 +17,7 @@
      if(score===7)
      output.innerHTML="Hurray Your score is "+score+"!! ";
      else{
-        output.innerHTML="Your score is "+score+"!! ";
+        output.innerHTML="Your score is "+score+" !! ";
      }
  }
 
